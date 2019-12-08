@@ -300,45 +300,5 @@ score = accuracy_score(y_pred, Y_test)
 
 score
 
-
-# In[ ]:
-
-
-"""
-1. Demonstrate the performance of the model.
-# my score is 0.7622427253371186
-2. What are the key factors that predict customer churn? Do these factors make sense?
-# i have taken all the factors into consideration except customerID
-3. What offers should be made to which customers to encourage them to remain withcompany?
-# these are correlation 
-Churn                        1.000000
-Fiber optic                  0.308020
-Electronic check             0.301919
-MonthlyCharges               0.193356
-PaperlessBilling             0.191825
-SeniorCitizen                0.150889
-StreamingTV                  0.063228
-StreamingMovies              0.061382
-MultipleLines                0.040102
-PhoneService                 0.011942
-gender                      -0.008612
-DeviceProtection            -0.066160
-OnlineBackup                -0.082255
-Mailed check                -0.091683
-Bank transfer (automatic)   -0.117937
-DSL                         -0.124214
-Credit card (automatic)     -0.134302
-Partner                     -0.150448
-Dependents                  -0.164221
-TechSupport                 -0.164674
-OnlineSecurity              -0.171226
-tenure                      -0.352229
-Contract                    -0.394453
-
-Contract, tenure are top two factors which stops customer to leave the company.
-
-4.Assuming these actions were implemented, how would you determine whether
-they had worked
-score can be a way to detemine how the action has worked
  """
 
